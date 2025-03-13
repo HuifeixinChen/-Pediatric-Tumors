@@ -1,12 +1,15 @@
-# 忽略 Data 文件夹（不提交数据集）
-Data/
-Data/*
+# 忽略 Data 目录下的 MRI 数据，但保留代码
 Data/Train/
 Data/Train/*
 Data/Train/BraTS-PED/
 Data/Train/BraTS-PED/*
-Data/Train/BraTS-PED/**/*.nii.gz
-Data/Train/BraTS-PED/**/*.pkl
+Data/Train/**/*.nii.gz
+Data/Train/**/*.pkl
+Data/Train/**/*.zip
+Data/Train/**/*.tar.gz
+
+# 但保留 Data 目录下的 Python 代码
+!Data/*.py
 
 # 忽略 macOS `.DS_Store`
 .DS_Store
