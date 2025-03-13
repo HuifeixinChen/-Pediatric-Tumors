@@ -1,0 +1,17 @@
+# 忽略 Data 文件夹（不提交数据集）
+Data/
+Data/*
+Data/Train/
+Data/Train/*
+Data/Train/BraTS-PED/
+Data/Train/BraTS-PED/*
+Data/Train/BraTS-PED/**/*.nii.gz
+Data/Train/BraTS-PED/**/*.pkl
+
+# 忽略 macOS `.DS_Store`
+.DS_Store
+**/.DS_Store
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
