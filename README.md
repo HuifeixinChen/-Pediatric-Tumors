@@ -1,13 +1,3 @@
-以下是你项目的 `README.md` 最终整理版本，已做到：
-
-- 去除所有复制提示与表情符号  
-- 结构清晰，内容完整  
-- 包含项目动机、模型说明、数据说明、环境配置、训练推理流程、可视化、引用与联系方式  
-
-你可以直接复制粘贴此内容作为 `README.md` 文件内容：
-
----
-
 ```markdown
 # nnUNet v2 for Pediatric Brain Tumor Segmentation
 
