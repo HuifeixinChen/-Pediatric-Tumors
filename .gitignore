@@ -14,3 +14,5 @@ __pycache__/
 **/*.pkl
 # 忽略所有 .npy 文件（例如处理后的数据）
 **/*.npy
+**/checkpoint_*.pth
+nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/*.pth
