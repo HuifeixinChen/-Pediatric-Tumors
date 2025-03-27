@@ -1,7 +1,11 @@
-<<<<<<< HEAD
+# 忽略原始数据集目录
 data/
+BraTS*/
+
+# 忽略大型医学图像文件
 *.nii.gz
 *.npz
-*.DS_Store
 
->>>>>>> bd42f7112bc192dbadb80dd450cc82dd377b
+# 忽略系统缓存文件
+__pycache__/
+*.DS_Store
