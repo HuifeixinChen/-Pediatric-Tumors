@@ -1,0 +1,21 @@
+{
+    "channel_names": {
+        "0": "T1CE",
+        "1": "T1N",
+        "2": "T2F",
+        "3": "T2W"
+    },
+    "labels": {
+        "background": 0,
+        "ET": 1,
+        "NET": 2,
+        "CC": 3,
+        "ED": 4
+    },
+    "numTraining": 155,
+    "file_ending": ".nii.gz",
+    "licence": "CC-BY-SA 4.0",
+    "converted_by": "Your Name",
+    "name": "BraTSPED",
+    "description": "Pediatric brain tumor segmentation with 4 MRI modalities."
+}

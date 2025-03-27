@@ -1,0 +1,1482 @@
+{
+    "foreground_mean": {
+        "Dice": 0.46982452564423477,
+        "FN": 4928.4435483870975,
+        "FP": 3968.822580645162,
+        "IoU": 0.3889112358579918,
+        "TN": 8909005.572580647,
+        "TP": 10097.16129032258,
+        "n_pred": 14065.983870967742,
+        "n_ref": 15025.604838709676
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.5566348744250457,
+            "FN": 3702.8709677419356,
+            "FP": 1046.3548387096773,
+            "IoU": 0.4678570042126194,
+            "TN": 8914843.193548387,
+            "TP": 8407.58064516129,
+            "n_pred": 9453.935483870968,
+            "n_ref": 12110.451612903225
+        },
+        "2": {
+            "Dice": 0.6178185674898671,
+            "FN": 7932.967741935484,
+            "FP": 10555.032258064517,
+            "IoU": 0.525179346428475,
+            "TN": 8887335.032258065,
+            "TP": 22176.967741935485,
+            "n_pred": 32732.0,
+            "n_ref": 30109.935483870966
+        },
+        "3": {
+            "Dice": 0.3730329198378616,
+            "FN": 1941.225806451613,
+            "FP": 2677.032258064516,
+            "IoU": 0.30730022003294327,
+            "TN": 8920647.161290323,
+            "TP": 2734.5806451612902,
+            "n_pred": 5411.612903225807,
+            "n_ref": 4675.806451612903
+        },
+        "4": {
+            "Dice": 0.33181174082416454,
+            "FN": 6136.709677419355,
+            "FP": 1596.8709677419354,
+            "IoU": 0.2553083727579295,
+            "TN": 8913196.903225806,
+            "TP": 7069.5161290322585,
+            "n_pred": 8666.387096774193,
+            "n_ref": 13206.225806451614
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.835197862748372,
+                    "FN": 3730,
+                    "FP": 218,
+                    "IoU": 0.7170298165137615,
+                    "TN": 8914048,
+                    "TP": 10004,
+                    "n_pred": 10222,
+                    "n_ref": 13734
+                },
+                "2": {
+                    "Dice": 0.028189116859946475,
+                    "FN": 959,
+                    "FP": 4488,
+                    "IoU": 0.01429605501266739,
+                    "TN": 8922474,
+                    "TP": 79,
+                    "n_pred": 4567,
+                    "n_ref": 1038
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4,
+                    "IoU": 0.0,
+                    "TN": 8927996,
+                    "TP": 0,
+                    "n_pred": 4,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.4479122733024041,
+                    "FN": 1299,
+                    "FP": 10,
+                    "IoU": 0.28858695652173916,
+                    "TN": 8926160,
+                    "TP": 531,
+                    "n_pred": 541,
+                    "n_ref": 1830
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00003-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00003-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9057160936511285,
+                    "FN": 1360,
+                    "FP": 875,
+                    "IoU": 0.8276792598303778,
+                    "TN": 8915030,
+                    "TP": 10735,
+                    "n_pred": 11610,
+                    "n_ref": 12095
+                },
+                "2": {
+                    "Dice": 0.13387622149837133,
+                    "FN": 916,
+                    "FP": 4402,
+                    "IoU": 0.07174026880781986,
+                    "TN": 8922271,
+                    "TP": 411,
+                    "n_pred": 4813,
+                    "n_ref": 1327
+                },
+                "3": {
+                    "Dice": 0.24135562170826655,
+                    "FN": 3290,
+                    "FP": 23,
+                    "IoU": 0.13723958333333333,
+                    "TN": 8924160,
+                    "TP": 527,
+                    "n_pred": 550,
+                    "n_ref": 3817
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00005-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00005-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 2570,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8925430,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 2570
+                },
+                "2": {
+                    "Dice": 0.8615843705366252,
+                    "FN": 6929,
+                    "FP": 3925,
+                    "IoU": 0.7568276016578918,
+                    "TN": 8883365,
+                    "TP": 33781,
+                    "n_pred": 37706,
+                    "n_ref": 40710
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00014-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00014-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5919847607883362,
+                    "FN": 574,
+                    "FP": 4995,
+                    "IoU": 0.420439171609949,
+                    "TN": 8918391,
+                    "TP": 4040,
+                    "n_pred": 9035,
+                    "n_ref": 4614
+                },
+                "2": {
+                    "Dice": 0.8648196377434979,
+                    "FN": 6058,
+                    "FP": 5413,
+                    "IoU": 0.7618345652354456,
+                    "TN": 8879836,
+                    "TP": 36693,
+                    "n_pred": 42106,
+                    "n_ref": 42751
+                },
+                "3": {
+                    "Dice": 0.8467786137824506,
+                    "FN": 1941,
+                    "FP": 1134,
+                    "IoU": 0.7342723816107847,
+                    "TN": 8916428,
+                    "TP": 8497,
+                    "n_pred": 9631,
+                    "n_ref": 10438
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00020-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00020-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9160374423800232,
+                    "FN": 6148,
+                    "FP": 2759,
+                    "IoU": 0.8450821810592225,
+                    "TN": 8870505,
+                    "TP": 48588,
+                    "n_pred": 51347,
+                    "n_ref": 54736
+                },
+                "2": {
+                    "Dice": 0.20414056115499865,
+                    "FN": 40628,
+                    "FP": 17804,
+                    "IoU": 0.1136729059854989,
+                    "TN": 8862074,
+                    "TP": 7494,
+                    "n_pred": 25298,
+                    "n_ref": 48122
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 14,
+                    "FP": 26201,
+                    "IoU": 0.0,
+                    "TN": 8901785,
+                    "TP": 0,
+                    "n_pred": 26201,
+                    "n_ref": 14
+                },
+                "4": {
+                    "Dice": 0.7940578960558379,
+                    "FN": 21008,
+                    "FP": 17615,
+                    "IoU": 0.6584544095929539,
+                    "TN": 8814917,
+                    "TP": 74460,
+                    "n_pred": 92075,
+                    "n_ref": 95468
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00021-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00021-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.910467072066244,
+                    "FN": 767,
+                    "FP": 617,
+                    "IoU": 0.8356489728060801,
+                    "TN": 8919579,
+                    "TP": 7037,
+                    "n_pred": 7654,
+                    "n_ref": 7804
+                },
+                "2": {
+                    "Dice": 0.9078262027191187,
+                    "FN": 3200,
+                    "FP": 2339,
+                    "IoU": 0.831210385177962,
+                    "TN": 8895184,
+                    "TP": 27277,
+                    "n_pred": 29616,
+                    "n_ref": 30477
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.852994555353902,
+                    "FN": 110,
+                    "FP": 133,
+                    "IoU": 0.7436708860759493,
+                    "TN": 8927052,
+                    "TP": 705,
+                    "n_pred": 838,
+                    "n_ref": 815
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00023-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00023-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8576724222027119,
+                    "FN": 1195,
+                    "FP": 1723,
+                    "IoU": 0.7508112724167378,
+                    "TN": 8916290,
+                    "TP": 8792,
+                    "n_pred": 10515,
+                    "n_ref": 9987
+                },
+                "2": {
+                    "Dice": 0.2704204401277508,
+                    "FN": 1013,
+                    "FP": 32339,
+                    "IoU": 0.15635039081273872,
+                    "TN": 8888467,
+                    "TP": 6181,
+                    "n_pred": 38520,
+                    "n_ref": 7194
+                },
+                "3": {
+                    "Dice": 0.8254485003809656,
+                    "FN": 4681,
+                    "FP": 359,
+                    "IoU": 0.7027776139647344,
+                    "TN": 8911043,
+                    "TP": 11917,
+                    "n_pred": 12276,
+                    "n_ref": 16598
+                },
+                "4": {
+                    "Dice": 0.7282628712741048,
+                    "FN": 27211,
+                    "FP": 3776,
+                    "IoU": 0.5726520479933802,
+                    "TN": 8855490,
+                    "TP": 41523,
+                    "n_pred": 45299,
+                    "n_ref": 68734
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00028-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00028-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8915071780736155,
+                    "FN": 9025,
+                    "FP": 3452,
+                    "IoU": 0.8042516473172262,
+                    "TN": 8864260,
+                    "TP": 51263,
+                    "n_pred": 54715,
+                    "n_ref": 60288
+                },
+                "2": {
+                    "Dice": 0.18012619728539653,
+                    "FN": 8925,
+                    "FP": 9136,
+                    "IoU": 0.09897730107258668,
+                    "TN": 8907955,
+                    "TP": 1984,
+                    "n_pred": 11120,
+                    "n_ref": 10909
+                },
+                "3": {
+                    "Dice": 0.9163799789209935,
+                    "FN": 1795,
+                    "FP": 2410,
+                    "IoU": 0.8456654187770682,
+                    "TN": 8900754,
+                    "TP": 23041,
+                    "n_pred": 25451,
+                    "n_ref": 24836
+                },
+                "4": {
+                    "Dice": 0.7412269129287599,
+                    "FN": 4540,
+                    "FP": 3306,
+                    "IoU": 0.5888487135146465,
+                    "TN": 8908917,
+                    "TP": 11237,
+                    "n_pred": 14543,
+                    "n_ref": 15777
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00032-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00032-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 986,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927014,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 986
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 2,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927998,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 2
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00037-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00037-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 2573,
+                    "IoU": 0.0,
+                    "TN": 8925427,
+                    "TP": 0,
+                    "n_pred": 2573,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.8372230947490966,
+                    "FN": 10740,
+                    "FP": 4081,
+                    "IoU": 0.7200204019948617,
+                    "TN": 8875064,
+                    "TP": 38115,
+                    "n_pred": 42196,
+                    "n_ref": 48855
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 46,
+                    "FP": 4111,
+                    "IoU": 0.0,
+                    "TN": 8923843,
+                    "TP": 0,
+                    "n_pred": 4111,
+                    "n_ref": 46
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 3,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927997,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 3
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00039-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00039-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 1,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927999,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 1
+                },
+                "2": {
+                    "Dice": 0.8795080318399954,
+                    "FN": 2200,
+                    "FP": 6186,
+                    "IoU": 0.7849302421009438,
+                    "TN": 8889008,
+                    "TP": 30606,
+                    "n_pred": 36792,
+                    "n_ref": 32806
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 5426,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8922574,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 5426
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00046-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00046-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8105640107430617,
+                    "FN": 1652,
+                    "FP": 464,
+                    "IoU": 0.6814692157157911,
+                    "TN": 8921357,
+                    "TP": 4527,
+                    "n_pred": 4991,
+                    "n_ref": 6179
+                },
+                "2": {
+                    "Dice": 0.8009295120061968,
+                    "FN": 747,
+                    "FP": 4136,
+                    "IoU": 0.6679586563307494,
+                    "TN": 8913294,
+                    "TP": 9823,
+                    "n_pred": 13959,
+                    "n_ref": 10570
+                },
+                "3": {
+                    "Dice": 0.8618235975508853,
+                    "FN": 225,
+                    "FP": 610,
+                    "IoU": 0.7571968595521954,
+                    "TN": 8924561,
+                    "TP": 2604,
+                    "n_pred": 3214,
+                    "n_ref": 2829
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00051-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00051-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.9550687434052002,
+                    "FN": 177,
+                    "FP": 2676,
+                    "IoU": 0.9140015071590053,
+                    "TN": 8894825,
+                    "TP": 30322,
+                    "n_pred": 32998,
+                    "n_ref": 30499
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 1,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927999,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 1
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 2,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927998,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 2
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00059-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00059-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9233319890666308,
+                    "FN": 1161,
+                    "FP": 550,
+                    "IoU": 0.8575828200432828,
+                    "TN": 8915986,
+                    "TP": 10303,
+                    "n_pred": 10853,
+                    "n_ref": 11464
+                },
+                "2": {
+                    "Dice": 0.8749288587969777,
+                    "FN": 3028,
+                    "FP": 3345,
+                    "IoU": 0.7776653642199274,
+                    "TN": 8899336,
+                    "TP": 22291,
+                    "n_pred": 25636,
+                    "n_ref": 25319
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 2,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927998,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 2
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00060-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00060-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8627230890111124,
+                    "FN": 402,
+                    "FP": 821,
+                    "IoU": 0.7585866561389657,
+                    "TN": 8922934,
+                    "TP": 3843,
+                    "n_pred": 4664,
+                    "n_ref": 4245
+                },
+                "2": {
+                    "Dice": 0.932223997776697,
+                    "FN": 1972,
+                    "FP": 1930,
+                    "IoU": 0.8730520219930377,
+                    "TN": 8897263,
+                    "TP": 26835,
+                    "n_pred": 28765,
+                    "n_ref": 28807
+                },
+                "3": {
+                    "Dice": 0.804945054945055,
+                    "FN": 515,
+                    "FP": 53,
+                    "IoU": 0.6735632183908046,
+                    "TN": 8926260,
+                    "TP": 1172,
+                    "n_pred": 1225,
+                    "n_ref": 1687
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 5,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927995,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 5
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00064-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00064-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.728726442033124,
+                    "FN": 2011,
+                    "FP": 2264,
+                    "IoU": 0.573225516621743,
+                    "TN": 8917983,
+                    "TP": 5742,
+                    "n_pred": 8006,
+                    "n_ref": 7753
+                },
+                "2": {
+                    "Dice": 0.834761639769987,
+                    "FN": 4416,
+                    "FP": 4492,
+                    "IoU": 0.7163870228278519,
+                    "TN": 8896591,
+                    "TP": 22501,
+                    "n_pred": 26993,
+                    "n_ref": 26917
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 147,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927853,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 147
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00073-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00073-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.8506401137980085,
+                    "FN": 2993,
+                    "FP": 472,
+                    "IoU": 0.7400990099009901,
+                    "TN": 8914668,
+                    "TP": 9867,
+                    "n_pred": 10339,
+                    "n_ref": 12860
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00074-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00074-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 405,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927595,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 405
+                },
+                "2": {
+                    "Dice": 0.8633071351517954,
+                    "FN": 1344,
+                    "FP": 430,
+                    "IoU": 0.7594902386117137,
+                    "TN": 8920624,
+                    "TP": 5602,
+                    "n_pred": 6032,
+                    "n_ref": 6946
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00075-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00075-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8570998861268074,
+                    "FN": 4680,
+                    "FP": 1971,
+                    "IoU": 0.7499342031056134,
+                    "TN": 8901403,
+                    "TP": 19946,
+                    "n_pred": 21917,
+                    "n_ref": 24626
+                },
+                "2": {
+                    "Dice": 0.7875965130759651,
+                    "FN": 11724,
+                    "FP": 13860,
+                    "IoU": 0.6496158428859032,
+                    "TN": 8854983,
+                    "TP": 47433,
+                    "n_pred": 61293,
+                    "n_ref": 59157
+                },
+                "3": {
+                    "Dice": 0.7647735993860323,
+                    "FN": 6993,
+                    "FP": 1589,
+                    "IoU": 0.6191363777570674,
+                    "TN": 8905467,
+                    "TP": 13951,
+                    "n_pred": 15540,
+                    "n_ref": 20944
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 6860,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8921140,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 6860
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00089-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00089-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.5061304561059343,
+                    "FN": 10558,
+                    "FP": 519,
+                    "IoU": 0.3388049901510177,
+                    "TN": 8911247,
+                    "TP": 5676,
+                    "n_pred": 6195,
+                    "n_ref": 16234
+                },
+                "2": {
+                    "Dice": 0.3162087751156933,
+                    "FN": 2709,
+                    "FP": 43983,
+                    "IoU": 0.18779571388811578,
+                    "TN": 8870512,
+                    "TP": 10796,
+                    "n_pred": 54779,
+                    "n_ref": 13505
+                },
+                "3": {
+                    "Dice": 0.3523202911737944,
+                    "FN": 14062,
+                    "FP": 174,
+                    "IoU": 0.21382814225756572,
+                    "TN": 8909892,
+                    "TP": 3872,
+                    "n_pred": 4046,
+                    "n_ref": 17934
+                },
+                "4": {
+                    "Dice": 0.6295097132284921,
+                    "FN": 33061,
+                    "FP": 581,
+                    "IoU": 0.4593317583530206,
+                    "TN": 8865777,
+                    "TP": 28581,
+                    "n_pred": 29162,
+                    "n_ref": 61642
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00091-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00091-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.2209989878722233,
+                    "FN": 43756,
+                    "FP": 115,
+                    "IoU": 0.12422645426597996,
+                    "TN": 8877906,
+                    "TP": 6223,
+                    "n_pred": 6338,
+                    "n_ref": 49979
+                },
+                "2": {
+                    "Dice": 0.2697941381220964,
+                    "FN": 1510,
+                    "FP": 101284,
+                    "IoU": 0.15593181370294948,
+                    "TN": 8806216,
+                    "TP": 18990,
+                    "n_pred": 120274,
+                    "n_ref": 20500
+                },
+                "3": {
+                    "Dice": 0.26547937073315525,
+                    "FN": 22420,
+                    "FP": 2326,
+                    "IoU": 0.15305633513587513,
+                    "TN": 8898782,
+                    "TP": 4472,
+                    "n_pred": 6798,
+                    "n_ref": 26892
+                },
+                "4": {
+                    "Dice": 0.5401261506069086,
+                    "FN": 43910,
+                    "FP": 7199,
+                    "IoU": 0.36998138628995475,
+                    "TN": 8846877,
+                    "TP": 30014,
+                    "n_pred": 37213,
+                    "n_ref": 73924
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00097-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00097-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8400757629904939,
+                    "FN": 4448,
+                    "FP": 4502,
+                    "IoU": 0.724250546877407,
+                    "TN": 8895543,
+                    "TP": 23507,
+                    "n_pred": 28009,
+                    "n_ref": 27955
+                },
+                "2": {
+                    "Dice": 0.28532582305525883,
+                    "FN": 497,
+                    "FP": 6862,
+                    "IoU": 0.16640235613955595,
+                    "TN": 8919172,
+                    "TP": 1469,
+                    "n_pred": 8331,
+                    "n_ref": 1966
+                },
+                "3": {
+                    "Dice": 0.7220816543279293,
+                    "FN": 3157,
+                    "FP": 5740,
+                    "IoU": 0.5650452212173063,
+                    "TN": 8907545,
+                    "TP": 11558,
+                    "n_pred": 17298,
+                    "n_ref": 14715
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00099-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00099-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 2371,
+                    "FP": 1,
+                    "IoU": 0.0,
+                    "TN": 8925628,
+                    "TP": 0,
+                    "n_pred": 1,
+                    "n_ref": 2371
+                },
+                "2": {
+                    "Dice": 0.8927833768819211,
+                    "FN": 10360,
+                    "FP": 6874,
+                    "IoU": 0.8063312618697113,
+                    "TN": 8839013,
+                    "TP": 71753,
+                    "n_pred": 78627,
+                    "n_ref": 82113
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 1,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927999,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 1
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00107-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00107-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7532894736842105,
+                    "FN": 64,
+                    "FP": 86,
+                    "IoU": 0.604221635883905,
+                    "TN": 8927621,
+                    "TP": 229,
+                    "n_pred": 315,
+                    "n_ref": 293
+                },
+                "2": {
+                    "Dice": 0.9093529639674545,
+                    "FN": 1944,
+                    "FP": 3905,
+                    "IoU": 0.8337738369284111,
+                    "TN": 8892813,
+                    "TP": 29338,
+                    "n_pred": 33243,
+                    "n_ref": 31282
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00118-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00118-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6223447381222637,
+                    "FN": 2147,
+                    "FP": 182,
+                    "IoU": 0.4517419962335217,
+                    "TN": 8923752,
+                    "TP": 1919,
+                    "n_pred": 2101,
+                    "n_ref": 4066
+                },
+                "2": {
+                    "Dice": 0.8025042087542088,
+                    "FN": 7927,
+                    "FP": 3335,
+                    "IoU": 0.6701520077321852,
+                    "TN": 8893857,
+                    "TP": 22881,
+                    "n_pred": 26216,
+                    "n_ref": 30808
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00134-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00134-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 3,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927997,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 3
+                },
+                "2": {
+                    "Dice": 0.895515284642138,
+                    "FN": 9057,
+                    "FP": 2359,
+                    "IoU": 0.8107991647054924,
+                    "TN": 8867662,
+                    "TP": 48922,
+                    "n_pred": 51281,
+                    "n_ref": 57979
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00137-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00137-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8012957182401791,
+                    "FN": 14185,
+                    "FP": 2684,
+                    "IoU": 0.6684682205888133,
+                    "TN": 8877118,
+                    "TP": 34013,
+                    "n_pred": 36697,
+                    "n_ref": 48198
+                },
+                "2": {
+                    "Dice": 0.16449023090586146,
+                    "FN": 29856,
+                    "FP": 28943,
+                    "IoU": 0.08961555731029464,
+                    "TN": 8863413,
+                    "TP": 5788,
+                    "n_pred": 34731,
+                    "n_ref": 35644
+                },
+                "3": {
+                    "Dice": 0.00884053043182591,
+                    "FN": 32,
+                    "FP": 34948,
+                    "IoU": 0.004439890710382513,
+                    "TN": 8892864,
+                    "TP": 156,
+                    "n_pred": 35104,
+                    "n_ref": 188
+                },
+                "4": {
+                    "Dice": 0.574897480436223,
+                    "FN": 46792,
+                    "FP": 686,
+                    "IoU": 0.40340780578522784,
+                    "TN": 8848418,
+                    "TP": 32104,
+                    "n_pred": 32790,
+                    "n_ref": 78896
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00138-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00138-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.41706161137440756,
+                    "FN": 246,
+                    "FP": 0,
+                    "IoU": 0.2634730538922156,
+                    "TN": 8927666,
+                    "TP": 88,
+                    "n_pred": 88,
+                    "n_ref": 334
+                },
+                "2": {
+                    "Dice": 0.9088066036230573,
+                    "FN": 2785,
+                    "FP": 5788,
+                    "IoU": 0.8328556666861633,
+                    "TN": 8876709,
+                    "TP": 42718,
+                    "n_pred": 48506,
+                    "n_ref": 45503
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 10,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 8927990,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 10
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00139-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00139-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 7,
+                    "IoU": 0.0,
+                    "TN": 8927993,
+                    "TP": 0,
+                    "n_pred": 7,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.5689324485020523,
+                    "FN": 44294,
+                    "FP": 656,
+                    "IoU": 0.3975580662887164,
+                    "TN": 8853387,
+                    "TP": 29663,
+                    "n_pred": 30319,
+                    "n_ref": 73957
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 3104,
+                    "IoU": 0.0,
+                    "TN": 8924896,
+                    "TP": 0,
+                    "n_pred": 3104,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 16197,
+                    "IoU": 0.0,
+                    "TN": 8911803,
+                    "TP": 0,
+                    "n_pred": 16197,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00144-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00144-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.16285585178490736,
+                    "FN": 18505,
+                    "FP": 21,
+                    "IoU": 0.08864620228256592,
+                    "TN": 8907672,
+                    "TP": 1802,
+                    "n_pred": 1823,
+                    "n_ref": 20307
+                },
+                "3": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00152-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00152-000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7769166121953497,
+                    "FN": 1330,
+                    "FP": 1059,
+                    "IoU": 0.6352114826691098,
+                    "TN": 8921451,
+                    "TP": 4160,
+                    "n_pred": 5219,
+                    "n_ref": 5490
+                },
+                "2": {
+                    "Dice": 0.9086354985356041,
+                    "FN": 7523,
+                    "FP": 1742,
+                    "IoU": 0.8325683099609658,
+                    "TN": 8872664,
+                    "TP": 46071,
+                    "n_pred": 47813,
+                    "n_ref": 53594
+                },
+                "3": {
+                    "Dice": 0.8504315834158767,
+                    "FN": 855,
+                    "FP": 202,
+                    "IoU": 0.7397833579517479,
+                    "TN": 8923938,
+                    "TP": 3005,
+                    "n_pred": 3207,
+                    "n_ref": 3860
+                },
+                "4": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 8928000,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                }
+            },
+            "prediction_file": "F:/Code/Research/-Pediatric-Tumors/nnUNet_results/Dataset999_BraTSPED/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation\\BraTS-PED-00159-000.nii.gz",
+            "reference_file": "F:/Code/Research/-Pediatric-Tumors/labels_eval_subset\\BraTS-PED-00159-000.nii.gz"
+        }
+    ]
+}
