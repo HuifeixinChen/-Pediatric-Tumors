@@ -1,7 +1,14 @@
-# 忽略所有目录下的 nii.gz 和 npz 文件
+# 忽略原始数据集目录
+data/
+BraTS*/
+
+# 忽略大型医学图像文件
 **/*.nii.gz
 **/*.npz
 
-# 忽略所有目录下名为 data 或以 BraTS 开头的文件夹
-**/data/
-**/BraTS*/
+# 忽略系统缓存文件
+__pycache__/
+*.DS_Store
+
+# 忽略所有 .pkl 文件（例如处理后的数据）
+**/*.pkl
