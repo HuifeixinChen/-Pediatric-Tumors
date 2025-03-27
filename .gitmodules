@@ -1,0 +1,3 @@
+[submodule "TransBTS"]
+	path = TransBTS
+	url = https://github.com/HuifeixinChen/TransBTS.git

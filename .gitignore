@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 data/
 *.nii.gz
 *.npz
+*.DS_Store
+
+>>>>>>> bd42f7112bc192dbadb80dd450cc82dd377b
